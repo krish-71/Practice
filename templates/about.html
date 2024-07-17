@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>About</title>
+    {% block title %} {% endblock %}
+</head>
+<body>
+    <h1>CONTACT DETAILS</h1>
+    <ul>
+        <li>Email : stan546@gmail.com</li>
+        <li>Phone Number : +913487653791</li>
+    </ul>
+    <a href="{{ url_for('index') }}">Home</a>
+    {% block body %}
+
+    {% endblock %}
+</body>
+</html>

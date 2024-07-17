@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Portfolio</title>
+    {% block title %} {% endblock %}
+</head>
+<body>
+    <h1>Portfolio App</h1>
+    <h3>My name is Yadukrishna</h3>
+    <h4>I love studying languages</h4>
+    <h2>Hobbies</h2>
+    <ol>
+        <li>Cooking</li>
+        <li>Nature Lover</li>
+        <li>Reading Books</li>
+    </ol>
+    <a href="about">About</a>
+    {% block body %}
+
+    {% endblock %}
+</body>
+</html>

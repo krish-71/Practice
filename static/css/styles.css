@@ -1,0 +1,21 @@
+h1{
+    color:blue;
+}
+h2{
+    color:brown;
+}
+h3{
+    color:chartreuse;
+}
+h4{
+    color:crimson;
+}
+body{
+    background-image: url("bg.jpg");
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+li{
+    color:darkturquoise;
+}
